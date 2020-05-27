@@ -1,2 +1,5 @@
 ---
 # tasks file for rhel-management
+- import_tasks: dnf.yml
+  tags:
+    - baseline

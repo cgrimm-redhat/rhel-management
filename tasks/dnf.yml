@@ -1,0 +1,5 @@
+---
+- name: Patch Servers
+  dnf:
+    name: "*"
+    state: latest
